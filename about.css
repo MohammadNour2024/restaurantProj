@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+}
+h1,p{
+    color: white;
+}
+body a{
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    flex-grow: 1;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+    gap: 30px; 
+}
